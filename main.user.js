@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Mega AI PG
 // @namespace    http://tampermonkey.net/
-// @version      1.0.7
-// @description  MAIPG v.1.0.7
+// @version      1.0.8
+// @description  MAIPG v.1.0.8
 // @author       DAKO23
 // @match        https://megasys.megaparts.bg/megasys/product*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
