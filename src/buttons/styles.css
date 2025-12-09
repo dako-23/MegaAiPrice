@@ -14,7 +14,7 @@
 }
 
 #mp-generate-prices { right: 10px;  background: #007bff; }
-#mp-confirm-prices { right: 190px; background: #28a745; }
+#mp-confirm-prices { right: 280px; background: #28a745; }
 
 #mp-generate-prices:not(.disabled):not(.loading):hover { background: #0069d9; }
 #mp-confirm-prices:not(.disabled):not(.loading):hover  { background: #218838; }
