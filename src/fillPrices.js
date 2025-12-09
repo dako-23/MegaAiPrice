@@ -6,7 +6,8 @@ window.fillPrices = async function () {
     MP.btnConfirm.classList.add('disabled');
 
     MP.btnGenerate.disabled = true;
-    MP.btnGenerate.classList.add('loading');
+    MP.btnGenerate.classList.add("loading");
+    MP.btnGenerate.textContent = "Генериране...";
 
     let generated = false;
 
@@ -49,6 +50,7 @@ window.fillPrices = async function () {
 
         MP.btnGenerate.disabled = false;
         MP.btnGenerate.classList.remove('loading');
+        MP.btnGenerate.textContent = "Генерирай цени";
 
         if (generated) {
             MP.btnConfirm.disabled = false;
