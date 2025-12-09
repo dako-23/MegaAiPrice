@@ -5,7 +5,7 @@
 // @description  MAIPG v.1.0.8
 // @author       DAKO23
 // @match        https://megasys.megaparts.bg/megasys/product*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
+// @icon         https://res.cloudinary.com/dgvzzts4y/image/upload/v1765292639/Screenshot_2_rrui1n.png
 
 // @require      https://raw.githubusercontent.com/dako-23/MegaAiPrice/main/src/utils.js
 // @require      https://raw.githubusercontent.com/dako-23/MegaAiPrice/main/src/fillPrices.js
