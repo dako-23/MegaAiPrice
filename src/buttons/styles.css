@@ -28,7 +28,7 @@
 .disabled,
 #mp-generate-prices:disabled,
 #mp-confirm-prices:disabled {
-    opacity: 0.5 !important;
+    opacity: 0.8 !important;
     cursor: not-allowed !important;
     -webkit-appearance: none;
     appearance: none;
