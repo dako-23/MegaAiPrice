@@ -14,14 +14,14 @@
 }
 
 #mp-generate-prices { right: 10px; background: #007bff; }
-#mp-confirm-prices { right: 175px; background: #28a745; }
+#mp-confirm-prices { right: 190px; background: #28a745; }
 
 #mp-generate-prices:hover:not(.disabled) { background: #0069d9; }
 #mp-confirm-prices:hover:not(.disabled)  { background: #218838; }
 
 #mp-generate-prices.loading {
     background: #555;
-    cursor: wait;
+    cursor: not-allowed;
 }
 
 .disabled {
