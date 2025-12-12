@@ -6,7 +6,7 @@ window.fillPrices = async function () {
     MP.btnConfirm.classList.add('disabled');
 
     MP.btnGenerate.disabled = true;
-    MP.btnGenerate.classList.add("loading");
+    MP.btnGenerate.classList.add('loading');
     MP.btnGenerate.textContent = "Генериране...";
 
     let generated = false;
@@ -44,13 +44,13 @@ window.fillPrices = async function () {
         generated = true;
         alert('✔ Всички цени са генерирани.');
     } catch (err) {
-        alert('Грешка: ' + err.message);
+        alert(`Грешка: ${err.message}`);
     } finally {
         MP.running = false;
 
         MP.btnGenerate.disabled = false;
         MP.btnGenerate.classList.remove('loading');
-        MP.btnGenerate.textContent = "Генерирай цени";
+        MP.btnGenerate.textContent = 'Генерирай цени';
 
         if (generated) {
             MP.btnConfirm.disabled = false;
