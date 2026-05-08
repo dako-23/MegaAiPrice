@@ -12,7 +12,7 @@ window.fillPrices = async function () {
     let generated = false;
 
     try {
-        // const items = [];
+        const items = [];
 
         document.querySelectorAll('.f-edit-field-form').forEach(div => {
             const input = div.querySelector('input.fast-edit-field[data-field-name="price"]');
@@ -50,7 +50,7 @@ window.fillPrices = async function () {
 
         MP.btnGenerate.disabled = false;
         MP.btnGenerate.classList.remove('loading');
-        MP.btnGenerate.textContent = 'Отвори ценови полета';
+        MP.btnGenerate.textContent = 'Попълни цени';
 
         if (generated) {
             MP.btnConfirm.disabled = false;

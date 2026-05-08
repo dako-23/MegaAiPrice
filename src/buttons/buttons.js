@@ -2,7 +2,7 @@ window.initButtons = function () {
 
     const gen = document.createElement("button");
     gen.id = "mp-generate-prices";
-    gen.textContent = "Генерирай цени";
+    gen.textContent = "Попълни цени";
     gen.onclick = fillPrices;
 
     const conf = document.createElement("button");
