@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Mega AI PG
 // @namespace    http://tampermonkey.net/
-// @version      1.0.8
-// @description  MAIPG v.1.0.8
+// @version      1.0.9
+// @description  MAIPG v.1.0.9
 // @author       DAKO23
 // @match        https://megasys.megaparts.bg/megasys/product*
 // @icon         https://res.cloudinary.com/dgvzzts4y/image/upload/v1765292639/Screenshot_2_rrui1n.png

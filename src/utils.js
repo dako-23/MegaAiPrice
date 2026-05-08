@@ -5,15 +5,15 @@ window.MP = {
     API_URL: 'https://server-tgjz.onrender.com/prices/megaparts-prices'
 };
 
-window.fetchPrices = async function (items) {
-    const res = await fetch(MP.API_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items })
-    });
+// window.fetchPrices = async function (items) {
+//     const res = await fetch(MP.API_URL, {
+//         method: 'POST',
+//         headers: { 'Content-Type': 'application/json' },
+//         body: JSON.stringify({ items })
+//     });
 
-    if (!res.ok) throw new Error('Backend error ' + res.status);
+//     if (!res.ok) throw new Error('Backend error ' + res.status);
 
-    const data = await res.json();
-    return data.prices;
-};
+//     const data = await res.json();
+//     return data.prices;
+// };

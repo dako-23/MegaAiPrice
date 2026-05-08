@@ -12,7 +12,7 @@ window.fillPrices = async function () {
     let generated = false;
 
     try {
-        const items = [];
+        // const items = [];
 
         document.querySelectorAll('.f-edit-field-form').forEach(div => {
             const input = div.querySelector('input.fast-edit-field[data-field-name="price"]');
@@ -31,18 +31,18 @@ window.fillPrices = async function () {
             return;
         }
 
-        const prices = await fetchPrices(items);
-        const queue = [...prices];
+        // const prices = await fetchPrices(items);
+        // const queue = [...prices];
 
-        document.querySelectorAll('.f-edit-field-form').forEach(div => {
-            const input = div.querySelector('input.fast-edit-field[data-field-name="price"]');
-            if (input && queue.length > 0) {
-                input.value = Number(queue.shift()).toFixed(2);
-            }
-        });
+        // document.querySelectorAll('.f-edit-field-form').forEach(div => {
+        //     const input = div.querySelector('input.fast-edit-field[data-field-name="price"]');
+        //     if (input && queue.length > 0) {
+        //         input.value = Number(queue.shift()).toFixed(2);
+        //     }
+        // });
 
         generated = true;
-        alert('✔ Всички цени са генерирани.');
+        // alert('✔ Всички цени са генерирани.');
     } catch (err) {
         alert(`Грешка: ${err.message}`);
     } finally {
@@ -50,7 +50,7 @@ window.fillPrices = async function () {
 
         MP.btnGenerate.disabled = false;
         MP.btnGenerate.classList.remove('loading');
-        MP.btnGenerate.textContent = 'Генерирай цени';
+        MP.btnGenerate.textContent = 'Отвори ценови полета';
 
         if (generated) {
             MP.btnConfirm.disabled = false;
